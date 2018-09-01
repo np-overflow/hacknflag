@@ -6,5 +6,5 @@ This is an example challenge to demonstrate.
 
 Solve it like this.
 
-The final flag is `HNF{abcdef}`.
+The flag is `HNF{abcdef}`.
 
