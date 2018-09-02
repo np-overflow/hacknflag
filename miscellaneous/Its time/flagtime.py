@@ -12,8 +12,8 @@ def check(s):
     if len(s) != len(flag):
         print("no")
         return
-    print("wowie u got it")
+    print("You got it!")
     return
 
-a = input("enter the flag: ")
+a = input("Enter the flag: ")
 check(a)
