@@ -1,5 +1,7 @@
+#!/usr/bin/env python3
+
 import time
-flag = "HNF{Ez_t1m1ng_4tt4ck}"
+flag = "HNF{Ez_t1m1ng_4tt4ck!}"
 def check(s):
     for c in range(min(len(s), len(flag))):
         if c < 3 and flag[c] == s[c]:
@@ -15,5 +17,5 @@ def check(s):
     print("You got it!")
     return
 
-a = input("Enter the flag: ")
+a = input("enter the flag: ")
 check(a)
