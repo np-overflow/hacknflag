@@ -4,3 +4,5 @@ They say that using python to create executables is bad. Do you know why?
 
 ## Writeup
 TODO
+
+```flag is HNF{H0w_d1D_y0u_se3_my_5OURc3_k0D3}```
