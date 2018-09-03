@@ -1,5 +1,6 @@
 # Blind Spot
-The difficulty for this challenge is 3/5.</br></br>
+The difficulty for this challenge is 3/5.</br>
+NOTE: Only give the txt file to the participants</br></br>
 I hope you have a good eye.
 ## Writeup
 

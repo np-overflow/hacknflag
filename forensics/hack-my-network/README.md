@@ -1,5 +1,6 @@
 # Hack My Network
-Difficulty for this challenge is 2/5</br></br>
+Difficulty for this challenge is 2/5.</br>
+NOTE: only the cap file is to be given to the participants</br></br>
 I bet you can't hack my network.</br>
 flag format: HNF{\<MD5 of password in caps>}
 

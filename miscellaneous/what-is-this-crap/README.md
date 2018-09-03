@@ -1,5 +1,6 @@
 # What Is This Crap
-Difficulty for this challenge is 1/5.</br></br>
+Difficulty for this challenge is 1/5.</br>
+NOTE: only the txt files are to be given to the participants.</br></br>
 I have no idea what this texts are.
 
 ## Writeup

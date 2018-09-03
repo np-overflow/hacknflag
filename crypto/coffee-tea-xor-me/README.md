@@ -1,6 +1,6 @@
 # Coffee Tea XOR Me
 The difficulty of this challenge is 3/5.</br>
-NOTE: ciphertext and xor.py to be given to participants.</br></br>
+NOTE: only ciphertext and xor.py to be given to participants.</br></br>
 Time for some XOR action.
 
 ## Writeup

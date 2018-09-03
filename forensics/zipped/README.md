@@ -1,5 +1,6 @@
 # Zipped
-Difficulty for this challenge is 3/5.</br></br>
+Difficulty for this challenge is 3/5.</br>
+NOTE: only the zip files are to be given to the participants.</br></br>
 Time for some ZIP cracking!!!
 
 HINT: Heard of pkcrack?

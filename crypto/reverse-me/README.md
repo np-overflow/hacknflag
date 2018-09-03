@@ -1,6 +1,6 @@
 # Reverse Me
 Difficulty of this challenge is 4/5.</br>
-NOTE: Ciphertext.txt and encryption.py to be given to the participants.</br></br>
+NOTE: only ciphertext.txt and encryption.py to be given to the participants.</br></br>
 Check out my secure encryption algorithm.
 
 
