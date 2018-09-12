@@ -8,6 +8,5 @@ e = 65537
 
 phi = (p-1) * (q-1)
 d = inverse(e,phi)
-
 m = pow(c,d,n)
 print hex(m)[2:-1].decode("hex")
