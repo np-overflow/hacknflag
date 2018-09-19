@@ -1,9 +1,15 @@
 # Coffee Tea XOR Me
-The difficulty of this challenge is 3/5.</br>
-NOTE: only ciphertext and xor.py to be given to participants.</br></br>
+
 Time for some XOR action.
 
-## Writeup
-Script to solve is in solve.py
+## Difficulty
 
-```flag is HNF{x0r_1s_easy_r1ght}```
+⭐️⭐️⭐️
+
+## Writeup
+
+Each character in the flag is XORed with the next character in the flag to produce the ciphertext. Simply reverse that as shown in `solve.py`.
+
+## Flag
+
+`HNF{x0r_1s_easy_r1ght}`
