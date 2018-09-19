@@ -1,9 +1,15 @@
 # Blind Spot
-The difficulty for this challenge is 3/5.</br>
-NOTE: Only give the txt file to the participants</br></br>
+
 I hope you have a good eye.
+
+## Difficulty
+
+⭐️⭐️⭐️
+
 ## Writeup
 
-The script to solve is in solve.py
+Find all the readable text within the file. They form the flag.
 
-```flag is HNF{y0u_h4ve_a_g00d_eye}```
+## Flag
+
+`HNF{y0u_h4ve_a_g00d_eye}`
