@@ -1,8 +1,15 @@
 # r0pbaby
-Simple ROP
 
-Difficulty: 4/5
+Very simple ROP :D Have fun!
+
+## Difficulty
+
+⭐️⭐️⭐️⭐️
 
 ## Writeup
-Run the script<br>
-```Flag: HNF{r0p_to_v1ct0ry}```
+
+See `solve.py`. It constructs and submits the malicious payload. The payload overrides the return pointer to call the `get_flag` function.
+
+## Flag
+
+`HNF{r0p_to_v1ct0ry}`
