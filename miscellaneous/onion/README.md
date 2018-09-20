@@ -1,6 +1,15 @@
 # onion
-Diffculty: 2/5
-Dont cry..
+
+Dont cry...
+
+## Difficulty
+
+⭐️️️️️⭐️⭐️️️️️
+
 ## Writeup
-Just unzip all the way <br>
-```Flag: HNF{nINja5_Cu77iNG_0ni0ns}```
+
+Just unzip all the way.
+
+## Flag
+
+`HNF{nINja5_Cu77iNG_0ni0ns}`
