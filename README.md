@@ -21,3 +21,4 @@ This repository consists of the challenges for the Hack'n'Flag CTF 2018 organise
 | `investigator`      | Forensics | ⭐️⭐️⭐️     |
 | `ouch-my-head`      | Forensics | ⭐️⭐️       |
 | `steghidden`        | Forensics | ⭐️⭐️       |
+| `zipped`            | Forensics | ⭐️⭐️⭐️     |
