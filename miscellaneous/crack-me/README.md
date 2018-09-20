@@ -1,6 +1,6 @@
 # Crack Me
 
-The difficulty of this challenge is 3/5.
+The difficulty of this challenge is 2/5.
 
 
 
