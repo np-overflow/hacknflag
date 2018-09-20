@@ -1,14 +1,15 @@
 # Roll a Dice
-The difficulty of this challenge is 1/5.
-
-NOTE: Only the dice binary to be given to the participants.
 
 Happy Guessing :)
 
+## Difficulty
 
+⭐️️️️️
 
 ## Writeup
+
 Just keep trying until you get it right.
 
+## Flag
 
-```HNF{In5aN3_luCk}```
+`HNF{In5aN3_luCk}`
