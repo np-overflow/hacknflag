@@ -16,3 +16,4 @@ This repository consists of the challenges for the Hack'n'Flag CTF 2018 organise
 | `rsa-math`          | Crypto    | ⭐️⭐️⭐️⭐️⭐️ |
 | `4udio`             | Forensics | ⭐️⭐️       |
 | `bin`               | Forensics | ⭐️⭐️       |
+| `classic`           | Forensics | ⭐️⭐️       |
