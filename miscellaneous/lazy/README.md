@@ -1,8 +1,15 @@
 # Lazy
-The difficulty of this challenge is 1/5.
 
 Here's an easy one for you.
 
+## Difficulty
+
+⭐️️️️️
 
 ## Writeup
-run ```zbarimg qr.png``` to get the flag.
+
+Scan the QR code to obtain the flag.
+
+## Flag
+
+`HNF{wh4t_a_lazy_chall3nge}`
