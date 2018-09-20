@@ -31,3 +31,4 @@ This repository consists of the challenges for the Hack'n'Flag CTF 2018 organise
 | `onion`                | Miscellaneous | ⭐️⭐️⭐️     |
 | `roll-a-dice`          | Miscellaneous | ⭐️         |
 | `what-is-this-crap`    | Miscellaneous | ⭐️⭐️⭐️     |
+| `mr-robot`             | Web           | ⭐️         |

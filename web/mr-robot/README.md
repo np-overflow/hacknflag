@@ -1,8 +1,15 @@
 # mr-robot
-Disallow it!
 
-Difficulty: 1/5
+Mr Robot tries to avoid Google's prying eyes.
+
+## Difficulty
+
+⭐️️️
 
 ## Writeup
-go to /not-flag.txt directory which can be seen under disallow in /robots.txt<br>
-```Flag: HNF{robots_r_taking_ovr}```
+
+Go to /not-flag.txt directory which can be seen under disallow in /robots.txt.
+
+## Flag
+
+`HNF{robots_r_taking_ovr}`
