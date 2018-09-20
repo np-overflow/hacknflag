@@ -7,7 +7,7 @@ The difficulty of this challenge is 2/5.
 
 ## Writeup
 
-TODO
+The script to solve is in solve.py
 
 ## flag
 
