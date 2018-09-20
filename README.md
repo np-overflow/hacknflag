@@ -19,3 +19,4 @@ This repository consists of the challenges for the Hack'n'Flag CTF 2018 organise
 | `classic`           | Forensics | ⭐️⭐️       |
 | `hack-my-network`   | Forensics | ⭐️⭐️       |
 | `investigator`      | Forensics | ⭐️⭐️⭐️     |
+| `ouch-my-head`      | Forensics | ⭐️⭐️       |
