@@ -26,3 +26,4 @@ This repository consists of the challenges for the Hack'n'Flag CTF 2018 organise
 | `BASE-ic-challenge`    | Miscellaneous | ⭐️         |
 | `BASE-ic-challenge-v2` | Miscellaneous | ⭐️         |
 | `full-of-garbage`      | Miscellaneous | ⭐️         |
+| `its-time`             | Miscellaneous | ⭐️⭐️⭐️⭐️⭐️ |
