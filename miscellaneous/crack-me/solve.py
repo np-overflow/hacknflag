@@ -3,21 +3,17 @@
 # imports
 import string
 import itertools
-from subprocess import Popen,PIPE,STDOUT
-import sys
+from pwn import * 
 
 guess = string.ascii_lowercase
 
-
-
+r = remote("0.0.0.0",8000)
+r.recvuntil("flag")
 for i in itertools.combinations_with_replacement(guess,5):
     current = ''.join(i)
-    p = Popen(["python","crack-me.py"],stdin=PIPE,stdout=PIPE,stderr=STDOUT,bufsize=1)
-    response =  p.communicate(current)[0]
-    print current
-    print response
+    r.sendline(current)
+    response = r.recv(1024)
     if "HNF{" in response:
-        print "The password was {}".format(current)
         print response
         break 
 
