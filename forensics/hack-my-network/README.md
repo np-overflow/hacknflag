@@ -1,10 +1,15 @@
 # Hack My Network
-Difficulty for this challenge is 2/5.</br>
-NOTE: only the cap file is to be given to the participants</br></br>
-I bet you can't hack my network.</br>
-flag format: HNF{\<MD5 of password in caps>}
+
+I bet you can't hack my network 😎
+
+## Difficulty
+
+⭐️️️️️⭐️
 
 ## Writeup
-Use aircrack to derive that it is a WPA2 and crack the handshake
 
-```The flag is HNF{1F009824B3B1DAD99BA2C58209D4649F}```
+Use aircrack to derive that it is a WPA2 and crack the handshake.
+
+## Flag
+
+`HNF{1F009824B3B1DAD99BA2C58209D4649F}`

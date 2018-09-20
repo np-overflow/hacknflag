@@ -5,7 +5,7 @@ This repository consists of the challenges for the Hack'n'Flag CTF 2018 organise
 ## Challenges
 
 | Name                | Category  | Difficulty |
-| ------------------- | --------- | ---------- |
+|---------------------|-----------|------------|
 | `r0pbaby`           | Binary    | ⭐️⭐️⭐️⭐️   |
 | `source-code`       | Binary    | ⭐️⭐️⭐️     |
 | `blind-spot`        | Crypto    | ⭐️⭐️⭐️     |
@@ -17,3 +17,4 @@ This repository consists of the challenges for the Hack'n'Flag CTF 2018 organise
 | `4udio`             | Forensics | ⭐️⭐️       |
 | `bin`               | Forensics | ⭐️⭐️       |
 | `classic`           | Forensics | ⭐️⭐️       |
+| `hack-my-network`   | Forensics | ⭐️⭐️       |
