@@ -14,17 +14,16 @@ for c in msg:
     for bit in bin_ver:
         msg_to_encode.append(bit)
 
-# remaining_pixels = (w * h - len(msg_to_encode))/8
 padding = "#"
-bin_ver = bin(ord(padding))[2:].zfill(8)
+padding_bin = bin(ord(padding))[2:].zfill(8)
 
 # Generate noise
 while len(msg_to_encode) < w*h:
-    for bit in bin_ver:
+    for bit in padding_bin:
         msg_to_encode.append(bit)
 
-print("DONE!")
 
+# Encode msg into LSBs of original image
 j = 2
 for i in range(0, w*h):
     value_to_alter = im_data[j]
@@ -34,14 +33,5 @@ for i in range(0, w*h):
     j += 3
 
 
-lol = bytes(im_data)
-that = Image.frombytes('RGB', (w, h), lol)
-that.save('encoded.png')
-'''
-# Get LSB of each pixel
-for i in range(2, len(im_data), 3):
-    value = im_data[i]
-    print(i)
-
-print(im.format, im.size, im.mode)
-'''
+new_img = Image.frombytes('RGB', (w, h), bytes(im_data))
+new_img.save('encoded.png')
