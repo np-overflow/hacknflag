@@ -15,7 +15,6 @@ flag = []
 a = cipher.chars.each_slice(5).map(&:join)
  
 #decoding begins
-a.each do |block|
-    flag << lookup.key(block)
-end
+a.map{ |block| flag << lookup.key(block)}
+
 puts flag.join
