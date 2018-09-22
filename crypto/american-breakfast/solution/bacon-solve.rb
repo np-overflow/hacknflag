@@ -13,7 +13,7 @@ flag = []
 
 #convert the cipher string into the blocks of 5 chars and joins them together to form an array
 a = cipher.chars.each_slice(5).map(&:join)
- 
+
 #decoding begins
 a.map{ |block| flag << lookup.key(block)}
 
