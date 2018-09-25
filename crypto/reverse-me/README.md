@@ -1,10 +1,15 @@
 # Reverse Me
-Difficulty of this challenge is 4/5.</br>
-NOTE: only ciphertext.txt and encryption.py to be given to the participants.</br></br>
+
 Check out my secure encryption algorithm.
 
+## Difficulty
+
+⭐️⭐️⭐️⭐️
 
 ## Writeup
-The script to solve this challenge is in solve.py
 
-```flag is HNF{s3CUr3_3nCRYp710Kn}```
+Reverse the encryption algorithm. See `solve.py` for full solution.
+
+## Flag
+
+`HNF{s3CUr3_3nCRYp710Kn}`
