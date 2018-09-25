@@ -26,9 +26,9 @@ This repository consists of the challenges for the Hack'n'Flag CTF 2018 organise
 | `BASE-ic-challenge`    | Miscellaneous | ⭐️         | -    |           |
 | `BASE-ic-challenge-v2` | Miscellaneous | ⭐️         | -    |           |
 | `full-of-garbage`      | Miscellaneous | ⭐️         | -    |           |
-| `its-time`             | Miscellaneous | ⭐️⭐️⭐️⭐️⭐️ | 4000 |           |
+| `its-time`             | Miscellaneous | ⭐️⭐️⭐️⭐️⭐️ | 4000 | its-time  |
 | `lazy`                 | Miscellaneous | ⭐️         | -    |           |
 | `onion`                | Miscellaneous | ⭐️⭐️⭐️     | -    |           |
 | `roll-a-dice`          | Miscellaneous | ⭐️         | -    |           |
 | `what-is-this-crap`    | Miscellaneous | ⭐️⭐️⭐️     | -    |           |
-| `mr-robot`             | Web           | ⭐️         | 443  | mrrobot   |
+| `mr-robot`             | Web           | ⭐️         | 443  | mr-robot  |
