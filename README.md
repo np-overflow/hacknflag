@@ -5,7 +5,7 @@ This repository consists of the challenges for the Hack'n'Flag CTF 2018 organise
 ## Challenges
 
 | Name                   | Category      | Difficulty | Port |
-| ---------------------- | ------------- | ---------- | ---- |
+|------------------------|---------------|------------|------|
 | `r0pbaby`              | Binary        | ⭐️⭐️⭐️⭐️   | 3000 |
 | `source-code`          | Binary        | ⭐️⭐️⭐️     | -    |
 | `blind-spot`           | Crypto        | ⭐️⭐️⭐️     | -    |
