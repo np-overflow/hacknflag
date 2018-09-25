@@ -2,7 +2,7 @@
 
 ## Difficulty
 
-⭐️⭐️⭐️⭐️⭐️
+⭐️⭐️⭐️⭐️
 
 Time for some classic RSA action!
 
