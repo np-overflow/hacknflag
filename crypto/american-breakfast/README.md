@@ -1,13 +1,15 @@
 # American Breakfast
 
-The difficulty for this challenge is 4/5.
-
 ttrrrtrrtrttrtrrrtrrtrtttrrtrttrtrrtrrrtrtrtrttrttrrtrttrrttttrttrrtrtrttrttrrrttrrttttrttrrtrtttttrttttttttbrtrrrttrrtrtrrtrtrrtrtrrtrtrrtrtrrtrtrrtrrrrtt
+
+## Difficulty
+
+⭐️️️️️⭐️️️️️⭐️️️️️
 
 ## Writeup
 
-The script to solve is in solve.py
+Each block of 5 chars represents an alphabet.
 
 ## Flag
 
-```HNF{I_LOVE_ME_SOME_BACONNNNNNN}```
+`HNF{I_LOVE_ME_SOME_BACONNNNNNN}`
