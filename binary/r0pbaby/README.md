@@ -8,7 +8,7 @@ Very simple ROP :D Have fun!
 
 ## Compilation
 
-`gcc r0pbaby.c -o r0pbaby -fno-stack-protector`
+`gcc -no-pie -m32 -fno-stack-protector -z execstack -o r0pbaby r0pbaby.c`
 
 ## Writeup
 
