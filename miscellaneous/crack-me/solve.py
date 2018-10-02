@@ -7,7 +7,7 @@ from pwn import *
 
 guess = string.ascii_lowercase
 
-r = remote("ctf.yadunut.com",3002)
+r = remote("ctf.yadunut.com",5000)
 r.recvuntil("flag")
 for i in itertools.combinations_with_replacement(guess,5):
     current = ''.join(i)
