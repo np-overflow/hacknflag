@@ -7,7 +7,7 @@ import string
 charset = string.ascii_lowercase + string.ascii_uppercase + string.punctuation + string.digits
 
 flag = "HNF{"
-while flag[:-1] != "}":
+while flag[-1:] != "}":
     for c in charset:
         r = remote("ctf.yadunut.com", 4000)
         r.recv()
