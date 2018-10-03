@@ -18,5 +18,7 @@ def check(s):
         return
     else:
         return
-a = raw_input("Enter Your Flag: ")
+print "Enter Your Flag: "
+sys.stdout.flush()
+a = raw_input()
 check(a)
