@@ -15,6 +15,7 @@ This repository consists of the challenges for the Hack'n'Flag CTF 2018 organise
 | `reverse-me`           | Crypto        | ⭐️⭐️⭐️⭐️   | -    | -         |
 | `rotten-tomato`        | Crypto        | ⭐️         | -    | -         |
 | `rsa-math`             | Crypto        | ⭐️⭐️⭐️⭐️   | -    | -         |
+| `rsa-math-2`           | Crypto        | ⭐️⭐️⭐️⭐️   | -    | -         |
 | `4udio`                | Forensics     | ⭐️⭐️       | -    | -         |
 | `bin`                  | Forensics     | ⭐️⭐️       | -    | -         |
 | `classic`              | Forensics     | ⭐️⭐️       | -    | -         |
