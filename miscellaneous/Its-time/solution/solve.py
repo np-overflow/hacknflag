@@ -6,15 +6,16 @@ import string
 
 charset = string.ascii_lowercase + string.ascii_uppercase + string.punctuation + string.digits
 
-flag = "HNF{Ez_t1m1ng_4tt4ck!"
+flag = "HNF{"
 while flag[-1] != "}":
     for c in charset:
+        print "\nTesting {} now\n".format(c)
         r = remote("ctf.yadunut.com", 4000)
         r.recv()
 
         # get 1st time
         before = time.time()
-        r.sendline(flag + "}")
+        r.sendline(flag + c)
         r.recv()
         # 2nd time for comparison
         after = time.time()
