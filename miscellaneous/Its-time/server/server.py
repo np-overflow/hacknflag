@@ -9,6 +9,7 @@ flag = "HNF{Ez_t1m1ng_4tt4ck!}"
 
 def check(s):
     if s == flag:
+        time.sleep(5)
         print "Correct!"
         sys.stdout.flush()
         return
