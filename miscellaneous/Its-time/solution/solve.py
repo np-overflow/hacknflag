@@ -14,9 +14,8 @@ while flag[-1] != "}":
 
         # get 1st time
         before = time.time()
-        r.sendline(flag + c)
+        r.sendline(flag + "}")
         r.recv()
-
         # 2nd time for comparison
         after = time.time()
         difference = after-before
