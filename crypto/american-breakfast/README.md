@@ -1,6 +1,5 @@
 # American Breakfast
-
-ttrrrtrrtrttrtrrrtrrtrtttrrtrttrtrrtrrrtrtrtrttrttrrtrttrrttttrttrrtrtrttrttrrrttrrttttrttrrtrtttttrttttttttbrtrrrttrrtrtrrtrtrrtrtrrtrtrrtrtrrtrtrrtrrrrtt
+Check out the file ;)
 
 ## Difficulty
 
