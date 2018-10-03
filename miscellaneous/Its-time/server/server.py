@@ -15,6 +15,8 @@ def check(s):
     last_index = len(s) -1
     if s[last_index] == flag[last_index]:
         time.sleep(5)
+        print "no"
+        sys.stdout.flush()
         return
     else:
         return
