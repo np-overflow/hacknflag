@@ -1,6 +1,6 @@
 mazes_file = open('test.txt', 'r')
 
-mazes_lines = []
+mazes_lines = [[]]
 start_pos = [0, 1]
 directions = {
     'W': (0, -1),
@@ -8,10 +8,14 @@ directions = {
     'S': (0, 1),
     'D': (1, 0),
 }
+maze_no = 0
 for line in mazes_file:
     if 'END' not in line:
-        mazes_lines.append(
+        mazes_lines[maze_no].append(
             list(line.strip('\n').replace('-', '+').replace('|', '+')))
+    else:
+        maze_no += 1
+        mazes_lines.append([])
 
 
 def get_surrounding_path(pos, maze):
@@ -55,22 +59,22 @@ def move_player(direction, curr_pos, maze):
         return (final_x, final_y), 1
 
 
-print(get_surrounding_path(start_pos, mazes_lines))
+print(get_surrounding_path(start_pos, mazes_lines[0]))
 while True:
     entered_input = input("Key in next position\n").upper()[:1]
     while entered_input not in directions:
         print("Oh no the input is invalid. Try again!")
-        print(get_surrounding_path(start_pos, mazes_lines))
+        print(get_surrounding_path(start_pos, mazes_lines[0]))
         entered_input = input("Key in next position\n").upper()[:1]
     chosen_dir = directions[entered_input]
-    res, err = move_player(chosen_dir, start_pos, mazes_lines)
+    res, err = move_player(chosen_dir, start_pos, mazes_lines[0])
     if err == -1:
         print('You can\'t go there. Sorry!')
-        print(get_surrounding_path(start_pos, mazes_lines))
+        print(get_surrounding_path(start_pos, mazes_lines[0]))
     else:
         start_pos[0] += chosen_dir[0]
         start_pos[1] += chosen_dir[1]
-        print(get_surrounding_path(start_pos, mazes_lines))
-        if mazes_lines[start_pos[1]][start_pos[0]] == '!':
+        print(get_surrounding_path(start_pos, mazes_lines[0]))
+        if mazes_lines[0][start_pos[1]][start_pos[0]] == '!':
             print("You won!! Here's a flag!!")
             break
