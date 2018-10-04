@@ -77,4 +77,5 @@ while True:
         print(get_surrounding_path(start_pos, mazes_lines[0]))
         if mazes_lines[0][start_pos[1]][start_pos[0]] == '!':
             print("You won!! Here's a flag!!")
+            print("HNF{Th0M4s_woU1D_b3_pR0uD!}")
             break
