@@ -25,6 +25,7 @@ This repository consists of the challenges for the Hack'n'Flag CTF 2018 organise
 | `steghidden`           | Forensics     | ⭐️⭐️       | -    | -         |
 | `take-a-break`         | Forensics     | ⭐️         | -    | -         |
 | `zipped`               | Forensics     | ⭐️⭐️⭐️     | -    | -         |
+| `The Letter`           | Forensics     | ⭐️⭐️⭐️     | -    | -         |
 | `BASE-ic-challenge`    | Miscellaneous | ⭐️         | -    | -         |
 | `BASE-ic-challenge-v2` | Miscellaneous | ⭐️         | -    | -         |
 | `crack-me`             | Miscellaneous | ⭐️⭐️       | 5000 | crack-me  |
