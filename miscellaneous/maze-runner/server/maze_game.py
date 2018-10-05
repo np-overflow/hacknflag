@@ -61,9 +61,11 @@ def move_player(direction, curr_pos, maze):
         return (final_x, final_y), 1
 
 
+print("Type W,A,S or D to move up, left, down or right respectively. The end of the maze has a '!' mark!")
 print(get_surrounding_path(start_pos, mazes_lines[0]))
 while True:
-    entered_input = input("Key in next position\n").upper()[:1]
+    entered_input = input(
+        "Key in the next move!\n").upper()[:1]
     while entered_input not in directions:
         print("Oh no the input is invalid. Try again!")
         print(get_surrounding_path(start_pos, mazes_lines[0]))
