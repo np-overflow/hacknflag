@@ -1,4 +1,6 @@
-mazes_file = open('test.txt', 'r')
+#!/usr/bin/env python3
+
+mazes_file = open('map.txt', 'r')
 
 mazes_lines = [[]]
 start_pos = [0, 1]
