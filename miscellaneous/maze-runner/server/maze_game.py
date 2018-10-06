@@ -63,7 +63,7 @@ def move_player(direction, curr_pos, maze):
 
 def play_game():
     print("Type W,A,S or D to move up, left, down or right respectively. The end of the maze has a '!' mark!")
-    print(get_surrounding_path(start_pos, mazes_lines[0]))
+    print(get_surrounding_path(start_pos, mazes_lines[0]), flush=True)
     while True:
         entered_input = input(
             "Key in the next move!\n").upper()[:1]
