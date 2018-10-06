@@ -4,7 +4,7 @@ I heard some script kiddies are lurking around. Hope you are not one of them!
 
 ## Difficulty
 
-⭐️️️
+⭐️️⭐️️️⭐️️️️
 
 ## Writeup
 
