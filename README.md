@@ -34,6 +34,7 @@ This repository consists of the challenges for the Hack'n'Flag CTF 2018 organise
 | `lazy`                 | Miscellaneous | ⭐️         | -    | -         |
 | `roll-a-dice`          | Miscellaneous | ⭐️         | -    | -         |
 | `what-is-this-crap`    | Miscellaneous | ⭐️⭐️⭐️     | -    | -         |
+| `Maze Runner`          | Miscellaneous | ⭐️⭐️⭐️⭐️⭐️ | 6000 | -         |
 | `mr-robot`             | Web           | ⭐️         | 443  | mr-robot  |
 | `My First PHP Script`  | Web           | ⭐️⭐️⭐️⭐️⭐️ | 7000 | -         |
 
