@@ -8,7 +8,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $username = $_POST['username'];
         $password = $_POST['password'];
     }
-    if($username === 'user' && $password == $_ENV["SECRET_PASSWORD"]) {
+    if($username == 'admin' && $password == $_ENV["SECRET_PASSWORD"]) {
         echo "Here's the flag!";
         include('flag.php');
     }else{
