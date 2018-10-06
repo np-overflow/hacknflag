@@ -6,7 +6,7 @@ This repository consists of the challenges for the Hack'n'Flag CTF 2018 organise
 
 | Name                   | Category      | Difficulty | Port | Subdomain |
 |------------------------|---------------|------------|------|-----------|
-| `r0pbaby`              | Binary        | ⭐️⭐️⭐️⭐️   | 3000 | r0pbaby   |
+| `r0pbaby`              | Binary        | ⭐️⭐️⭐️⭐️   | 8001 | r0pbaby   |
 | `source-code`          | Binary        | ⭐️⭐️⭐️     | -    | -         |
 | `american-breakfast`   | Crypto        | ⭐️⭐️⭐️     | -    | -         |
 | `blind-spot`           | Crypto        | ⭐️⭐️⭐️     | -    | -         |
@@ -28,14 +28,14 @@ This repository consists of the challenges for the Hack'n'Flag CTF 2018 organise
 | `The Letter`           | Forensics     | ⭐️⭐️⭐️     | -    | -         |
 | `BASE-ic-challenge`    | Miscellaneous | ⭐️         | -    | -         |
 | `BASE-ic-challenge-v2` | Miscellaneous | ⭐️         | -    | -         |
-| `crack-me`             | Miscellaneous | ⭐️⭐️       | 5000 | crack-me  |
+| `crack-me`             | Miscellaneous | ⭐️⭐️       | 8002 | crack-me  |
 | `full-of-garbage`      | Miscellaneous | ⭐️         | -    | -         |
-| `its-time`             | Miscellaneous | ⭐️⭐️⭐️⭐️⭐️ | 4000 | its-time  |
+| `its-time`             | Miscellaneous | ⭐️⭐️⭐️⭐️⭐️ | 8003 | its-time  |
 | `lazy`                 | Miscellaneous | ⭐️         | -    | -         |
 | `roll-a-dice`          | Miscellaneous | ⭐️         | -    | -         |
 | `what-is-this-crap`    | Miscellaneous | ⭐️⭐️⭐️     | -    | -         |
-| `Maze Runner`          | Miscellaneous | ⭐️⭐️⭐️⭐️⭐️ | 6000 | -         |
+| `Maze Runner`          | Miscellaneous | ⭐️⭐️⭐️⭐️⭐️ | 8004 | -         |
 | `mr-robot`             | Web           | ⭐️         | 443  | mr-robot  |
-| `My First PHP Script`  | Web           | ⭐️⭐️⭐️⭐️⭐️ | 7000 | -         |
+| `My First PHP Script`  | Web           | ⭐️⭐️⭐️⭐️⭐️ | 8005 | -         |
 | `script-kiddies`       | Web           | ⭐️⭐️⭐️     | 443    | script-kiddies         |
 
