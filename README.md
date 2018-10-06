@@ -32,7 +32,6 @@ This repository consists of the challenges for the Hack'n'Flag CTF 2018 organise
 | `full-of-garbage`      | Miscellaneous | ⭐️         | -    | -         |
 | `its-time`             | Miscellaneous | ⭐️⭐️⭐️⭐️⭐️ | 4000 | its-time  |
 | `lazy`                 | Miscellaneous | ⭐️         | -    | -         |
-| `onion`                | Miscellaneous | ⭐️⭐️⭐️     | -    | -         |
 | `roll-a-dice`          | Miscellaneous | ⭐️         | -    | -         |
 | `what-is-this-crap`    | Miscellaneous | ⭐️⭐️⭐️     | -    | -         |
 | `mr-robot`             | Web           | ⭐️         | 443  | mr-robot  |
