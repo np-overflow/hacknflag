@@ -61,25 +61,29 @@ def move_player(direction, curr_pos, maze):
         return (final_x, final_y), 1
 
 
-print("Type W,A,S or D to move up, left, down or right respectively. The end of the maze has a '!' mark!")
-print(get_surrounding_path(start_pos, mazes_lines[0]))
-while True:
-    entered_input = input(
-        "Key in the next move!\n").upper()[:1]
-    while entered_input not in directions:
-        print("Oh no the input is invalid. Try again!")
-        print(get_surrounding_path(start_pos, mazes_lines[0]))
-        entered_input = input("Key in next position\n").upper()[:1]
-    chosen_dir = directions[entered_input]
-    res, err = move_player(chosen_dir, start_pos, mazes_lines[0])
-    if err == -1:
-        print('You can\'t go there. Sorry!')
-        print(get_surrounding_path(start_pos, mazes_lines[0]))
-    else:
-        start_pos[0] += chosen_dir[0]
-        start_pos[1] += chosen_dir[1]
-        print(get_surrounding_path(start_pos, mazes_lines[0]))
-        if mazes_lines[0][start_pos[1]][start_pos[0]] == '!':
-            print("You won!! Here's a flag!!")
-            print("HNF{Th0M4s_woU1D_b3_pR0uD!}")
-            break
+def play_game():
+    print("Type W,A,S or D to move up, left, down or right respectively. The end of the maze has a '!' mark!")
+    print(get_surrounding_path(start_pos, mazes_lines[0]))
+    while True:
+        entered_input = input(
+            "Key in the next move!\n").upper()[:1]
+        while entered_input not in directions:
+            print("Oh no the input is invalid. Try again!")
+            print(get_surrounding_path(start_pos, mazes_lines[0]))
+            entered_input = input("Key in next position\n").upper()[:1]
+        chosen_dir = directions[entered_input]
+        res, err = move_player(chosen_dir, start_pos, mazes_lines[0])
+        if err == -1:
+            print('You can\'t go there. Sorry!')
+            print(get_surrounding_path(start_pos, mazes_lines[0]))
+        else:
+            start_pos[0] += chosen_dir[0]
+            start_pos[1] += chosen_dir[1]
+            print(get_surrounding_path(start_pos, mazes_lines[0]))
+            if mazes_lines[0][start_pos[1]][start_pos[0]] == '!':
+                print("You won!! Here's a flag!!")
+                print("HNF{Th0M4s_woU1D_b3_pR0uD!}")
+                break
+
+
+play_game()
