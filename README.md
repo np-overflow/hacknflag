@@ -31,7 +31,6 @@ This repository consists of the challenges for the Hack'n'Flag CTF 2018 organise
 | `crack-me`             | Miscellaneous | ⭐️⭐️       | 8002 | crack-me       |
 | `full-of-garbage`      | Miscellaneous | ⭐️         | -    | -              |
 | `its-time`             | Miscellaneous | ⭐️⭐️⭐️⭐️⭐️ | 8003 | its-time       |
-| `lazy`                 | Miscellaneous | ⭐️         | -    | -              |
 | `roll-a-dice`          | Miscellaneous | ⭐️         | -    | -              |
 | `what-is-this-crap`    | Miscellaneous | ⭐️⭐️⭐️     | -    | -              |
 | `Maze Runner`          | Miscellaneous | ⭐️⭐️⭐️⭐️⭐️ | 8004 | -              |
