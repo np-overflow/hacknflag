@@ -1,14 +1,15 @@
 #!/usr/bin/env ruby
 
 #variable declaration
-lookup = {A:"ttttt", B:'ttttr', C:'tttbr', D:'tttrr', E:'ttrtt',
+lookup = {A:"ttttt", B:'ttttr', C:'tttrt', D:'tttrr', E:'ttrtt',
     F:'ttrtr', G:'ttrrt', H:'ttrrr', I:'trttt', J:'trttr',
     K:'trtrt', L:'trtrr', M:'trrtt', N:'trrtr', O:'trrrt',
     P:'trrrr', Q:'rtttt', R:'rtttr', S:'rttrt', T:'rttrr',
     U:'rtrtt', V:'rtrtr', W:'rtrrt', X:'rtrrr', Y:'rrttt',
      Z:'rrttr', _:"rrtrt","{" => "rrtrr","}" => "rrrtt"}
 
-cipher = "ttrrrtrrtrttrtrrrtrrtrtttrrtrttrtrrtrrrtrtrtrttrttrrtrttrrttttrttrrtrtrttrttrrrttrrttttrttrrtrtttttrttttttttbrtrrrttrrtrtrrtrtrrtrtrrtrtrrtrtrrtrtrrtrrrrtt"
+#cipher = "ttrrrtrrtrttrtrrrtrrtrtttrrtrttrtrrtrrrtrtrtrttrttrrtrttrrttttrttrrtrtrttrttrrrttrrttttrttrrtrtttttrttttttttbrtrrrttrrtrtrrtrtrrtrtrrtrtrrtrtrrtrtrrtrrrrtt"
+cipher = "ttrrrtrrtrttrtrrrtrrtrtttrrtrttrtrrtrrrtrtrtrttrttrrtrttrrttttrttrrtrtrttrttrrrttrrttttrttrrtrtttttrttttttttrttrrrttrrtrtrrtrtrrtrtrrtrtrrtrtrrtrtrrtrrrrtt"
 flag = []
 
 #convert the cipher string into the blocks of 5 chars and joins them together to form an array
