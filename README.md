@@ -8,6 +8,8 @@ This repository consists of the challenges for the Hack'n'Flag CTF 2018 organise
 | ---------------------- | ------------- | ---------- | ---- | -------------- |
 | `r0pbaby`              | Binary        | ⭐️⭐️⭐️⭐️   | 8001 | r0pbaby        |
 | `source-code`          | Binary        | ⭐️⭐️⭐️     | -    | -              |
+| `FSA`                  | Binary        | ⭐️⭐️⭐️     | 8007 | -              |
+| `Chainzz`              | Binary        | ⭐️⭐️⭐️⭐️   | 8008 |                |
 | `american-breakfast`   | Crypto        | ⭐️⭐️⭐️     | -    | -              |
 | `blind-spot`           | Crypto        | ⭐️⭐️⭐️     | -    | -              |
 | `coffee-tea-xor-me`    | Crypto        | ⭐️⭐️⭐️     | -    | -              |
