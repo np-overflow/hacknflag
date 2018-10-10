@@ -8,7 +8,7 @@ I made a copy of my hard disk. Can you find the flag?
 
 ## Writeup
 
-Mount the drive and navigate to the trash. The flag is in one of the txt files.
+change the magic bytes at 0x438-0x439 to 53ef. Mount the drive and navigate to the trash. The flag is in one of the txt files.
 
 ## Flag
 
