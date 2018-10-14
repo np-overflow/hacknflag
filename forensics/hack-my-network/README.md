@@ -12,4 +12,4 @@ Use aircrack to derive that it is a WPA2 and crack the handshake.
 
 ## Flag
 
-`HNF{1F009824B3B1DAD99BA2C58209D4649F}`
+`HNF{obiwan22}`

@@ -10,7 +10,7 @@ flag = "HNF{"
 while flag[-1] != "}":
     for c in charset:
         print "\nTesting {} now\n".format(c)
-        r = remote("ctf.yadunut.com", 4000)
+        r = remote("ctf.yadunut.com", 8003)
         r.recv()
 
         # get 1st time
